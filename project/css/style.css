@@ -1,0 +1,121 @@
+body{
+    background-color: #FFE3C8;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.wrapper{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    margin-bottom: 2rem;
+}
+header{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    padding: 1rem 1rem 1rem 0;
+    border-bottom: 1px dotted grey;
+    font-family: 'Kanit', sans-serif;
+}
+div{
+    border-radius: 3px;
+}
+nav{
+    display: flex;
+    flex-flow: row nowrap;
+    min-height: 1.5rem;
+    margin-left: 1rem;
+    border-left: 1px dotted grey;
+    margin-bottom: 1rem;;
+}
+
+nav a{
+    border-right: 1px dotted grey;
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+nav a:hover{
+    color: #FFE3C8;
+    background-color: black;
+}
+a:hover{
+    cursor: pointer;
+}
+img{
+    border-radius: 3px;
+}
+#about{
+    display: flex;
+}
+#aboutleft{
+    padding: 1rem;
+    
+}
+#aboutright{
+    padding: 2rem;
+    margin: 1rem 0;
+    background-color: #F9F1E4;
+    opacity: 0.9;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+#content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 20%;
+    align-items: center;
+    justify-content: space-around;
+}
+#content div{
+    margin: 1rem;
+    display: flex;
+}
+#books{
+    background-image: url("../img/manga.jpg");
+}
+#vegan{
+    background-image: url("../img/lapka.jpeg");
+}
+#podcast{
+    background-image: url("../img/agrigento.jpg");
+}
+#travels{
+    background-image: url("../img/tatra.jpg");
+}
+#movies{
+    background-image: url("../img/manga.jpg");
+}
+#history{
+    background-image: url("../img/pantheon.jpg");
+}
+#books:hover{
+    
+}
+#content div{
+    font-size: 2.5rem;
+    color:#F9F1E4;
+    font-weight: bold;
+    text-align: right;
+    background-position: center;
+    width: 500px;
+    height: 380px;
+    flex-direction: column-reverse;
+}
+#content h3{
+    margin-right: 2rem;;
+}
+#interphoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    background-color: #F9F1E4;
+}
